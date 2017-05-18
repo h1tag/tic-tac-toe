@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Tic-tac-toe</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+  <p>Play Tic-tac-toe for free right now!!!</p>
+  <div id="select-player" class="wrapper">
+    <button id="vs-machine" class="ui-btn">VS. Machine</button>
+    <p class="or-p"> or </p>
+    <button id="vs-human" class="ui-btn" disabled="disabled">VS. Human (soon)</button>
+  </div>
+  <div id="select-stone" class="wrapper">
+    <button id="x" class="ui-btn">X</button>
+    <p class="or-p"> or </p>
+    <button id="o" class="ui-btn">O</button>
+  </div>
+  <div id = "the-game" class="wrapper">
+    <table>
+    <tr>
+      <td id ="c1" class="left-cell left-top-cell" onclick="showStoneOnClick(this.id); pcPlay();"></td>
+      <td id ="c2" class="mid-cell mid-top-cell" onclick="showStoneOnClick(this.id); pcPlay();"></td>
+      <td id="c3" class="right-cell right-top-cell" onclick="showStoneOnClick(this.id); pcPlay();"></td>
+    </tr>
+    <tr>
+      <td id="c4" class="left-cell left-mid-cell" onclick="showStoneOnClick(this.id); pcPlay();"></td>
+      <td id="c5" class="mid-cell mid-mid-cell" onclick="showStoneOnClick(this.id); pcPlay();"></td>
+      <td id="c6" class="right-cell right-mid-cell" onclick="showStoneOnClick(this.id); pcPlay();"></td>
+    </tr>
+    <tr>
+      <td id="c7" class="left-cell left-bottom-cell" onclick="showStoneOnClick(this.id); pcPlay();"></td>
+      <td id="c8" class="mid-cell mid-bottom-cell" onclick="showStoneOnClick(this.id); pcPlay();"></td>
+      <td id="c9" class="right-cell right-bottom-cell" onclick="showStoneOnClick(this.id); pcPlay();"></td>
+    </tr>
+    </table>
+
+    <div id="dialog" title="Basic dialog">
+      <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script src="js/script.js"></script>
+
+
+</body>
+</html>

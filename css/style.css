@@ -1,0 +1,92 @@
+body{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'Schoolbell', cursive;
+    font-size: 18px;
+    color: #333333
+}
+
+.wrapper{
+  height: 500px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.or-p{
+  margin: 1%;
+}
+
+.ui-btn{
+  font-size: 1em;
+}
+
+
+
+/* gameplay style */
+td{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 4em;
+}
+
+/* left section */
+.left-cell{
+  border-right: 1px solid #000000;
+}
+
+.left-top-cell{
+  border-bottom: 1px solid #000000;
+}
+
+.left-mid-cell{
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.left-bottom-cell{
+  border-top: 1px solid #000000;
+}
+
+/* mid section */
+.mid-cell{
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+}
+
+.mid-top-cell{
+  border-bottom: 1px solid #000000;
+}
+
+.mid-mid-cell{
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.mid-bottom-cell{
+  border-top: 1px solid #000000;
+}
+
+/* right section */
+.right-cell{
+  border-left: 1px solid #000000;
+}
+
+.right-top-cell{
+  border-bottom: 1px solid #000000;
+}
+
+.right-mid-cell{
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.right-bottom-cell{
+  border-top: 1px solid #000000;
+}
